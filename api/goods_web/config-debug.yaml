@@ -1,0 +1,30 @@
+name: 'user-web'
+port: 8889
+
+nacos:
+ host: '127.0.0.1'
+ port: 8848
+ namespace: 'b6140e28-dea8-47a8-8bd2-e1f4a59173b5'
+ user: 'nacos'
+ password: 'nacos'
+ dataid: 'user-web.json'
+ group: 'dev'
+
+user_srv:
+ host: '127.0.0.1'
+ port: 8888
+ name: 'user_srv'
+jwt:
+  key:  'b4W544qovn&@^9VRUwbZ'
+
+sms:
+  key: ''
+  secrect: ''
+
+redis:
+ host: '127.0.0.1'
+ port: 6379
+
+consul:
+  host: '127.0.0.1'
+  port: 8500

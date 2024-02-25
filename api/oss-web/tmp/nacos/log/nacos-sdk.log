@@ -1,0 +1,19 @@
+2024-01-25T14:35:33.224+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-25T14:35:33.334+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev","tenant":"9c21c4e4-8e46-4fb9-8098-2a93debb5237"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-25T14:35:33.338+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev","tenant":"9c21c4e4-8e46-4fb9-8098-2a93debb5237"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-25T14:35:33.341+0800	[31mERROR[0m	nacos_server/nacos_server.go:199	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"dev","tenant":"9c21c4e4-8e46-4fb9-8098-2a93debb5237"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2024-01-25T14:35:33.341+0800	[31mERROR[0m	config_client/config_client.go:202	get config from server error:[404] config data not exist
+ 
+2024-01-25T14:35:33.341+0800	[33mWARN[0m	config_client/config_client.go:207	[client.GetConfig] config not found, dataId: user-web.json, group: dev, namespaceId: 9c21c4e4-8e46-4fb9-8098-2a93debb5237.
+2024-01-25T14:36:00.423+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-25T14:39:49.210+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-25T14:43:12.741+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-25T14:47:08.017+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-25T14:49:50.873+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>
+2024-01-25T14:51:45.792+0800	[34mINFO[0m	clients/client_factory.go:47	logDir:<tmp/nacos/log>   cacheDir:<tmp/nacos/cache>

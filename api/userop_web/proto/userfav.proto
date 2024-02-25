@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option go_package = ".;proto";
+
+import "google/protobuf/empty.proto";
+
+service UserFav{
+    rpc GetFavList(UserFavRequest) returns (UserFavListResponse);
+
+    rpc AddUserFav(UserFavRequest) returns (google.protobuf.Empty);
+    
+    rpc DelectUserFav(UserFavRequest) returns (google.protobuf.Empty);
+    
+    rpc GetUserFavDetail(UserFavRequest) returns (google.protobuf.Empty);
+}
+
+
+message UserFavRequest{
+    int32 userId = 1;
+    int32 goodsId = 2;
+}
+
+message UserFavResponse{
+    int32 userId = 1;
+    int32 goodsId = 2;
+}
+
+message UserFavListResponse{
+    int32 total = 1;
+    repeated UserFavResponse data = 2;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "userop-web",
+  "host": "127.0.0.1",
+  "tags": ["userop", "web", "mxshop", "imooc"],
+  "port": 8882,
+  "userop_srv": {
+    "name":"userop_srv"
+  },
+  "goods_srv":{
+    "name":"userop_srv"
+  },
+  "jwt": {
+    "key": "b4W544qovn&@^9VRUwbZ"
+  },
+  "sms": {
+    "key": "",
+    "secrect": ""
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379
+  },
+  "consul": {
+    "host": "127.0.0.1",
+    "port": 8500
+  }
+}
