@@ -25,7 +25,7 @@ import (
 )
 
 // 请填写您的AccessKeyId。
-//var accessKeyId string = "LTAI4FzVU3GMnFDof6xZHSbd"
+//var accessKeyId string = ""
 //// 请填写您的AccessKeySecret。
 //var accessKeySecret string = "DP7mDPQGy9JHfZnwYdUhDuy3Q4pm87"
 //// host的格式为 bucketname.endpoint ，请替换为您的真实信息。
